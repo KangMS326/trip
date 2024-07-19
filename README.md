@@ -24,12 +24,12 @@
 * **라이브러리&프레임워크**    
     -프론트엔트 : React   
     -백엔드 : Spring Boot   
-* **API & 플러그인**
+* **API & 플러그인**    
     -Axios(API 통신    
     -Spring Security(인증 및 인가)   
-* **데이터 베이스**
+* **데이터 베이스**      
     -MySQL    
-* **사용 툴**
+* **사용 툴**      
     -코드 편집기: Visual Studio Code (VS Code)      
     -버전 관리: Git, GitHub, Sourcetree      
     -통합 개발 환경: Spring Tool Suite4 (STS4)      
