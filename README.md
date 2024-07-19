@@ -20,10 +20,10 @@
 
 ### ⚙ 개발 환경
 * **사용언어** 
-* HTML, CSS, Javascript, JAVA     
-* **라이브러리&프레임워크** 
+    -HTML, CSS, Javascript, JAVA     
+* **라이브러리&프레임워크**    
     -프론트엔트 : React   
-    -백엔드 : Spring Boot
+    -백엔드 : Spring Boot   
 * **API & 플러그인**
     -Axios(API 통신    
     -Spring Security(인증 및 인가)   
