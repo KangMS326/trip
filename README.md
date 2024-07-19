@@ -25,7 +25,7 @@
     -프론트엔트 : React   
     -백엔드 : Spring Boot   
 * **API & 플러그인**    
-    -Axios(API 통신    
+    -Axios(API 통신)    
     -Spring Security(인증 및 인가)   
 * **데이터 베이스**      
     -MySQL    
