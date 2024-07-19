@@ -33,4 +33,4 @@
     -코드 편집기: Visual Studio Code (VS Code)      
     -버전 관리: Git, GitHub, Sourcetree      
     -통합 개발 환경: Spring Tool Suite4 (STS4)      
-    -문서화: Notion<https://grand-shirt-d48.notion.site/d098161ff4c742cbbde4653559945f36>      
+    -문서화: Notion  URL [<https://grand-shirt-d48.notion.site/d098161ff4c742cbbde4653559945f36>]      
