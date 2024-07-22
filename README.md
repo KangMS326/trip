@@ -28,7 +28,7 @@
     -Axios(API 통신)    
     -Spring Security(인증 및 인가)   
 * **데이터 베이스**      
-    -MySQL    
+    -MySQL(AWS RDS)    
 * **사용 툴**      
     -코드 편집기: Visual Studio Code (VS Code)      
     -버전 관리: Git, GitHub, Sourcetree      
