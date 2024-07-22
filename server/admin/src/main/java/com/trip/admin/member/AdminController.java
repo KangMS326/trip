@@ -3,6 +3,7 @@ package com.trip.admin.member;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -15,6 +16,9 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 @RequestMapping("/admin")
 public class AdminController {
+	
+	@Autowired
+	AdminService  adminService;
     
 	/* test용 코드 삭제해도 괜찮습니다 */
     @GetMapping("/test")
@@ -24,6 +28,8 @@ public class AdminController {
 		log.info("paramsMap : {} ", paramsMap);
 		log.info("paramsMap's id : {} ", paramsMap.get("id")); // 이렇게 일정 값만 꺼낼 수도 있어
 		log.info("session ID : {} ", session.getId());
+		
+		adminService.userInfo(paramsMap);
 		
 		Map<String, Object> responseMap = new HashMap<>();
 		// 오만가지 데이터를 담을 수 있어

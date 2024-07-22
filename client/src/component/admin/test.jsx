@@ -31,7 +31,16 @@ const Test = () => {
                 // get 방식일떄는 params를 이용해
                 // 보낼 데이터를 나열해
                 params: {
-                    'id': 'gildong',
+                    'm_id': 'gildong',
+                    'm_pw':'password123', 
+                    'm_mail':'gildong@example.com', 
+                    'm_phone':'010-1234-5678',       
+                    'm_profile':'profile.jpg',       
+                    'm_is_allowed':1,                      
+                    'm_gender':'M',                    
+                    'm_birth':'1990-01-01',           
+                    'm_reg_date':'2024-07-20',                  
+                    'm_mod_date':'2024-07-21'  
                 }
                 });
                 
