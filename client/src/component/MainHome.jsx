@@ -1,15 +1,24 @@
-import React, { useEffect } from 'react';
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import React from 'react';
 
 
 const MainHome = () => {
 
     return(
-        <BrowserRouter>
-            <Routes>
-                <Route path="/">HOME</Route>
-            </Routes>
-        </BrowserRouter>
+        <>
+            <div>
+                <p>광고 이미지</p>
+            </div>
+            <div>
+                <a href="#">추천 여행</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+                <a href="#">추천 경로</a>
+            </div>
+            <div>
+                <p>
+                    추천 여행 / 경로 컨텐츠 IMAGE
+                </p>
+            </div>
+        </>
+        
     );
 
 }
