@@ -1,9 +1,9 @@
 import './App.css';
-import MainHome from './component/MainHome';
-import Test from './component/admin/test';
-import Footer from './component/include/Footer';
-import Header from './component/include/Header';
-import Nav from './component/include/Nav';
+import MainHomePage from './pages/MainHomePage';
+import Test from './components/admin/test';
+import Footer from './components/include/Footer';
+import Header from './components/include/Header';
+import Nav from './components/include/Nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Test />
             <div>
               <Routes>
-                  <Route path='/' element={<MainHome/>}> </Route>
+                  <Route path='/' element={<MainHomePage/>}> </Route>
               </Routes>
             </div>
           <Footer />

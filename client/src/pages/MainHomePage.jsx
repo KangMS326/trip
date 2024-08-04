@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const MainHome = () => {
+const MainHomePage = () => {
 
     return(
         <>
@@ -23,4 +23,4 @@ const MainHome = () => {
 
 }
 
-export default MainHome;
+export default MainHomePage;
