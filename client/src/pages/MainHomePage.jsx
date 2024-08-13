@@ -1,4 +1,6 @@
 import React from 'react';
+import Weather from '../components/weather/Weather';
+
 
 
 const MainHomePage = () => {
@@ -7,6 +9,10 @@ const MainHomePage = () => {
         <>
             <div>
                 <p>광고 이미지</p>
+            </div>
+            <div>
+                <h3>날씨</h3>
+                <Weather />
             </div>
             <div>
                 <a href="#">추천 여행</a> &nbsp;&nbsp; | &nbsp;&nbsp;
