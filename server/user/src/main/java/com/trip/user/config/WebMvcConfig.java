@@ -1,4 +1,4 @@
-package com.trip.user;
+package com.trip.user.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -19,7 +19,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
         
         registry.addMapping("/**")
                 .allowedOrigins("http://localhost:3000")
-                .allowedMethods("GET", "POST", "PUT", "DELETE")
+                .allowedMethods("GET", "POST", "PUT", "DELETE","OPTIONS")
                 .allowCredentials(true);
 	}
 	
