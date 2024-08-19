@@ -1,4 +1,4 @@
-package com.trip.admin;
+package com.trip.admin.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

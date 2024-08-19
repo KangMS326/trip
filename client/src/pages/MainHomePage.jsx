@@ -1,5 +1,6 @@
 import React from 'react';
 import Weather from '../components/weather/Weather';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,8 +16,8 @@ const MainHomePage = () => {
                 <Weather />
             </div>
             <div>
-                <a href="#">추천 여행</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-                <a href="#">추천 경로</a>
+                <Link to="/">추천 여행</Link> &nbsp;&nbsp; | &nbsp;&nbsp;
+                <Link to="/">추천 경로</Link>
             </div>
             <div>
                 <p>

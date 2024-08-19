@@ -1,4 +1,4 @@
-package com.trip.weather;
+package com.trip.user.weather;
 
 import org.apache.ibatis.annotations.Mapper;
 
