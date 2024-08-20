@@ -8,7 +8,7 @@ function Header () {
         <header >
             <div className="homeHeader">
                 <Link to="/">
-                    <img src="/img/logo.png" alt="여기모여" className="logoImg" />
+                    <img src="/img/trip_logo.png" alt="여기모여" className="logoImg" />
                 </Link>
             </div>
         </header>
