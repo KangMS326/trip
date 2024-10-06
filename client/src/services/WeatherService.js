@@ -1,12 +1,12 @@
 import axiosInstanceUser from "../config/AxiosConfigUser";
 
 
-export const axiosGetWeatherData = async(lat, lon) => {
+export const fetchWeatherData = async(lat, lon) => {
     try {
-        console.log("[WeatherService] axiosGetWeatherData()");
+        console.log("[WeatherService] fetchWeatherData()");
         console.log(lat, lon,"여기도????");
         
-        const response = await axiosInstanceUser.post('/weather/getWeather', {
+        const response = await axiosInstanceUser.post('/weather/shortTermForecast', {
            '위도' : lat,
            '경도' : lon
         });
